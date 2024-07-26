@@ -1,5 +1,8 @@
-.navbar{
-    background-color: #333;
+*{
+    margin: 0;
+    padding: 0;
+}.navbar{
+    background-color: #777;
     overflow:hidden;
 }
 .navbar a{
@@ -14,21 +17,42 @@
 background-color:aqua;
 color:black;
 }
-body {
-    background-image: url('img.jpg');
-    background-color: #cccccc;
-}
+
 .para
 {
-    margin-left: 100px;
-    margin-top: 200px;
+    /* margin-left: 100px;
+    margin-top: 200px; */
+    background-image: url('./img.jpg');
+    background-size: 100%;
+    background-repeat: none;
+    width: 100%;
+    height: 540px;
 }
 button{
-    background-color: blue;
+    background-color:sandybrown;
     border:1px solid #777;
     border-radius:2px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 21px;
     display: block;
-    width: 20%;
+    width: 12%;
+    
 }
+.message-text {
+   padding: 100px;
+    color: wheat;
+}
+.message-text p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+footer {
+    text-align: right;
+    background-color: DarkSalmon;
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
