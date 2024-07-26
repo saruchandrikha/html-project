@@ -48,11 +48,19 @@ button{
 }
 
 
-footer {
-    text-align: right;
+.footer {
+    text-align: center;
     background-color: DarkSalmon;
     color: white;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: end;
+
   }
+.footer a{
+    text-decoration: none;
+}
+.contact{
+    float:right;
+    justify-content:right;
+}
