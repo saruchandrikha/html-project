@@ -61,6 +61,8 @@ button{
     text-decoration: none;
 }
 .contact{
-    float:right;
-    justify-content:right;
+    float: center;
+    width: 250px;
+    height: 120px;
+    margin-bottom: 0;
 }
