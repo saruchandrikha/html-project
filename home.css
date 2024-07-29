@@ -1,17 +1,25 @@
 *{
     margin: 0;
     padding: 0;
+
 }.navbar{
+    
     background-color: #777;
     overflow:hidden;
+    height: 40px;
+}.navbar h1{
+    padding-left: 120px;
+    float: center;
 }
+    
 .navbar a{
     float:right;
     display:black;
     color:white;
     text-align:center;
-    padding:14px 16px;
     text-decoration:none;
+    padding: 15px 15px;
+    
 }
 .navbar a:hover{
 background-color:aqua;
@@ -27,8 +35,12 @@ color:black;
     background-repeat: none;
     width: 100%;
     height: 540px;
+}.head{
+    padding-top: 20px;
+    color:antiquewhite;
+    font-size:40px;
 }
-button{
+.button{
     background-color:sandybrown;
     border:1px solid #777;
     border-radius:2px;
@@ -36,7 +48,10 @@ button{
     font-size: 21px;
     display: block;
     width: 12%;
-    
+    cursor: pointer;
+}
+.button a{
+    text-decoration: none;
 }
 .message-text {
    padding: 100px;
@@ -47,22 +62,31 @@ button{
     padding-bottom: 30px;
 }
 
-
-.footer {
-    text-align: center;
+.footer{
+    background-color: DarkSalmon;
+    display: flex;
+}
+.footer{
+    text-align: left;
     background-color: DarkSalmon;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: end;
+    padding-left:20px;
 
   }
 .footer a{
     text-decoration: none;
 }
 .contact{
-    float: center;
-    width: 250px;
-    height: 120px;
+    
+    display: flex;
+    justify-content: center;
     margin-bottom: 0;
+    padding-left: 700px;
+    padding-bottom: 20px;
+}.copy{
+    align-content: center;
+    color: red;
 }
