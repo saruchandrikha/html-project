@@ -38,22 +38,24 @@ color:black;
     background-size: 100%;
     background-repeat: none;
     width: 100%;
-    height: 560px;
+    height: 580px;
     overflow: hidden;
 }.head{
     padding-top: 20px;
     color:antiquewhite;
     font-size:40px;
 }
-.button{
+
+.button {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
     background-color:sandybrown;
+    filter: drop-shadow(3px 3px 3px black);
+    cursor:pointer;
     border:1px solid #777;
     border-radius:2px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 21px;
-    display: block;
-    width: 12%;
-    cursor: pointer;
 }
 .button a{
     text-decoration: none;
@@ -108,20 +110,13 @@ text-decoration: none;
     color: red;
 } */
 
-footer{
-    position: relative;
-    background: #817c7f;
-    width: 100%;
-    bottom: 0;
-    left:0;
-}
 
 footer .footer-container{
     width: 100%;
     display: grid;
     grid-template-columns: 30fr 7fr;
     grid-gap: 20px;
-    padding: 10px;
+    padding: 5px;
 }
 footer .footer-container .sec h2{
     position: relative;
@@ -134,6 +129,9 @@ footer .footer-container .sec p{
 }
 footer .footer-container .contact .info {
     position: relative;
+    padding-bottom: 0;
+    
+  
 }
 footer .footer-container .contact .info li{
     list-style: none;
@@ -144,10 +142,46 @@ footer .footer-container .contact .info li a {
     list-style: none;
 
 }
+
+footer {
+    background-color:lightcoral;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left:0;
+}
+.footer-Container {
+  width: 100%;
+  padding: 10px 30px 20px;
+}
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+.socialIcons a {
+  text-decoration: none;
+  padding: 5px;
+  background-color: white;
+  margin: 5px;
+  border-radius: 50%;
+}
+.socialIcons a i {
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+  opacity: 0, 9;
+}
+  .socialIcons a:hover {
+    background-color: black;
+    transition: 0.5s;
+  }
+  .socialIcons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
 footer .copyrightText{
     width: 100%;
     padding: 10px;
     text-align: center;
-    color: #fcd462;
+    color: #0c0c0b;
     border-top: 1px solid #fff;
 }
