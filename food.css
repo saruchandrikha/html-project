@@ -203,3 +203,78 @@ body {
     color: #e1e9e7;
     font-weight: 700;
   }
+
+  footer .footer-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30fr 7fr;
+    grid-gap: 20px;
+    padding: 5px;
+}
+footer .footer-container .sec h2{
+    position: relative;
+    color: #fcd462;
+    font-weight: 600
+}
+footer .footer-container .sec p{
+    color: #fff;
+    width: 85%;
+}
+footer .footer-container .contact .info {
+    position: relative;
+    padding-bottom: 0;
+    
+  
+}
+footer .footer-container .contact .info li{
+    list-style: none;
+}
+footer .footer-container .contact .info li a {
+    color: #fcd462;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+footer {
+    background-color:lightcoral;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left:0;
+}
+.footer-Container {
+  width: 100%;
+  padding: 10px 30px 20px;
+}
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+.socialIcons a {
+  text-decoration: none;
+  padding: 5px;
+  background-color: white;
+  margin: 5px;
+  border-radius: 50%;
+}
+.socialIcons a i {
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+  opacity: 0, 9;
+}
+  .socialIcons a:hover {
+    background-color: black;
+    transition: 0.5s;
+  }
+  .socialIcons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+footer .copyrightText{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: #0c0c0b;
+    border-top: 1px solid #fff;
+}
