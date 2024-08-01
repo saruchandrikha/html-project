@@ -237,8 +237,9 @@ footer .footer-container .contact .info li a {
 }
 
 footer {
-    background-color:lightcoral;
+    background-color:burlywood;
     position: relative;
+    display: ;
     width: 100%;
     bottom: 0;
     left:0;
