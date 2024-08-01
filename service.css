@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+font-family: "poppins", sans-serif;
+    
+}
+
+.section-content {
+    
+    
+}
+
+.card-image img {
+    width: 250px;
+    height: 200px;
+    padding: 1.5rem;
+
+}
+.card-outer {
+   
+    width: 300px;
+    height: 450px;
+    background: #fff;
+    margin-bottom: 3rem;
+    box-shadow: 0.5px 0.5px 2px 2px gray;
+    border-radius: 20px;
+    
+
+
+}
+.card-outer:hover{
+    transform:  scale(1.1) ;
+}
+
+.card-main {
+   display: flex;
+   justify-content: space-around;
+   
+}
+.card-content {
+    padding: 1.5rem;
+    
+}
+.but {
+    width: 120px;
+    height: 40px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    cursor: pointer;
+}
+.but:hover {
+    box-shadow: 3px 3px 3px3px solid #84fab0;
+
+}
+.head {
+    text-align: center;
+    padding: 3rem;
+    font-size: 50px;
+    font-weight: 900;
+    background-image: url(p6.png);
+    margin: 2rem;
+    
+}
+span {
+    color: #84fab0;
+}
