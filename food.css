@@ -23,6 +23,12 @@ body {
   border: none;
   font-size: 17px;
 }
+.topnav button{
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+}
 
 @media screen and (max-width: 600px) {
   .topnav a, .topnav input[type=text] {
@@ -60,11 +66,6 @@ body {
     text-decoration: none;
     color: #444;
     font-weight: 500;
-    transition: color 0.3s ease-in-out;
-  }
-  
-  .menu-items a:hover {
-    color: #117964;
     transition: color 0.3s ease-in-out;
   }
   
