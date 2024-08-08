@@ -2,9 +2,35 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+  }
+  .navbar{
     
+    background-color: #777;
+    overflow:hidden;
+    height: 40px;
+}.navbar log{
+    float: left;
 
+}.navbar h1{
+    padding-left: 120px;
+    float: center;
 }
+    
+.navbar a{
+    float:right;
+    display:black;
+    color:white;
+    text-align:center;
+    text-decoration:none;
+    padding: 15px 15px;
+    
+}
+.navbar a:hover{
+background-color:aqua;
+color:black;
+}
+
+
 #about {
     padding: 50px 0;
     height: 100vh;

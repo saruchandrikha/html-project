@@ -6,6 +6,32 @@
 font-family: "poppins", sans-serif;
     
 }
+.navbar{
+    
+    background-color: #777;
+    overflow:hidden;
+    height: 40px;
+}.navbar log{
+    float: left;
+
+}.navbar h1{
+    padding-left: 120px;
+    float: center;
+}
+    
+.navbar a{
+    float:right;
+    display:black;
+    color:white;
+    text-align:center;
+    text-decoration:none;
+    padding: 15px 15px;
+    
+}
+.navbar a:hover{
+background-color:aqua;
+color:black;
+}
 
 .section-content {
     
@@ -67,4 +93,49 @@ font-family: "poppins", sans-serif;
 }
 span {
     color: #84fab0;
+}
+footer .footer-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30fr 7fr;
+    grid-gap: 20px;
+    padding-bottom: 0px;
+}
+footer {
+    background-color:lightcoral;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left:0;
+}
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+.socialIcons a {
+  text-decoration: none;
+  padding: 5px;
+  background-color: white;
+  margin: 5px;
+  border-radius: 50%;
+}
+.socialIcons a i {
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+  opacity: 0, 9;
+}
+  .socialIcons a:hover {
+    background-color: black;
+    transition: 0.5s;
+  }
+  .socialIcons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+footer .copyrightText{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: #0c0c0b;
+    border-top: 1px solid #fff;
 }
